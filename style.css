@@ -8,31 +8,33 @@ body {
 }
 
 #output {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 h1 {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fcb69f;
 }
 
 span {
     color: red;
     white-space: nowrap;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .wrapper {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    padding: 30px;
+    padding: 50px;
     box-shadow: rgb(38, 57, 77) 5px 05px 20px -8px;
     background-image: linear-gradient(to left, #ffecd2, #fcb69f);
+    font-weight: bold;
 }
 
 input {
@@ -46,6 +48,15 @@ select {
     outline: none;
     border-radius: 5px;
     background: none;
+
+}
+
+select option {
+    background-color: #ffecd2;
+}
+
+.droplist {
+    background-color: #fcb69f;
 }
 
 .btn-output {
@@ -63,7 +74,7 @@ button {
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
-    background: none;
+    background-color: white;
     cursor: pointer;
 }
 
